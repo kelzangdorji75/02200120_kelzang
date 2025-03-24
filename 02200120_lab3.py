@@ -1,8 +1,9 @@
+#TASK 1 & TASK 2 BY KELZANG DORJI
 class ArrayStack:
     def __init__(self, capacity=10):
-        self._capacity = capacity  # Default capacity
-        self._stack = []  # Internal list to store stack elements
-        self._top = -1  # Index to track the top element
+        self._capacity = capacity  
+        self._stack = []
+        self._top = -1 
         print(f"Created new ArrayStack with capacity: {self._capacity}")
 
     def push(self, element):
